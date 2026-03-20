@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${title}">Profile Summary</title>
+</head>
+<body>
+<h1>Account Summary</h1>
+<p th:text="'First Name: ' + ${user.firstName}"></p>
+<p th:text="'Last Name: ' + ${user.lastName}"></p>
+<p th:text="'Email Address: ' + ${user.emailAddress}"></p>
+</body>
+</html>

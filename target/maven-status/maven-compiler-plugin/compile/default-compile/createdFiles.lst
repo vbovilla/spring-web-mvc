@@ -1,2 +1,4 @@
 in/weprolance/SpringWebMvcApplication.class
+in/weprolance/controller/UserController.class
+in/weprolance/model/User.class
 in/weprolance/controller/HomeController.class
